@@ -1,0 +1,78 @@
+body{
+	background-color: #E5CF94; 
+}
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.titulo2{
+    background-color: #311B02;
+    width: 100%; /* largura do conteudo */
+    height: 20px; /* altura do conteudo */
+    float: left;
+}
+
+.container2{
+    background-color: #E5CF94;
+    margin-top: 5px;
+    width: 100%;
+    height: 500px;
+    float: left;    
+}
+.fila{
+    margin-top: 200px;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    float: left;
+    border-radius: 10PX;
+}
+.regra{
+    margin-top: 200px;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    float: right;
+    border-radius: 10px;
+}
+.titur{
+    text-align: center;
+
+}
+li{
+    list-style: disc;
+}
+#formulario input.btn_submit
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#f1ff00;
+}
